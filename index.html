@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id="demo"></p>
+<form name="500"  method="post">
+Name: <input type="text" name="Time">
+
+</form>
+<script>
+var Time = document.forms["500"]["Time"].value;
+var Pace = Time - 5;
+document.getElementById("demo").innerHTML = Pace;
+</script>
+</body>
+</html>
