@@ -5,14 +5,16 @@
 </head>
 <body>
 <p id="demo"></p>
-<form name="500"  method="post">
+<form name="500"  method="post" onsubmit="return validateForm()">
 Name: <input type="number" name="Time">
 
 </form>
 <script>
+  function validateForn() {
 var Time = document.forms["500"]["Time"].value;
 var Pace = Time - 5;
 document.body.innerHTML = Pace;
+  }
 </script>
 </body>
 </html>
