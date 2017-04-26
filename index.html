@@ -5,13 +5,13 @@
 </head>
 <body>
 <p id="demo"></p>
-<form name="500" onsubmit="return validateForm()" id='500'>
+<form name="500" onsubmit="return validateForm()" id='input' value="submit">
 Name: <input type="number" name="Time">
 
 </form>
 <script>
  function validateFrom() {
-        var username = document.forms.500.Time.value;
+        var username = document.forms.input.Time.value;
         alert(username);
     }
 </script>
