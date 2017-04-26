@@ -5,16 +5,15 @@
 </head>
 <body>
 <p id="demo"></p>
-<form name="500" method="post" onsubmit="return validateForm()">
+<form name="500" onsubmit="return validateForm()" id='500'>
 Name: <input type="number" name="Time">
 
 </form>
 <script>
-  function validateForm() {
-var Time = document.forms["500"]["Time"].value;
-document.getElementById("Result").innerHTML = "Print";
-  }
-  validateForm();
+ function validateFrom() {
+        var username = document.forms.500.Time.value;
+        alert(username);
+    }
 </script>
   <p id='Result'></p>
 </body>
