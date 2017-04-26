@@ -1,13 +1,7 @@
 <DOCTYPE html>
 <html>
 <head>
-<script>
-  function validateForm() {
-var Time = document.forms["500"]["Time"].value;
-document.getElementById("Result").innerHTML = "Print";
-  }
-  validateForm();
-</script>
+
 </head>
 <body>
 <p id="demo"></p>
@@ -15,7 +9,13 @@ document.getElementById("Result").innerHTML = "Print";
 Name: <input type="number" name="Time">
 
 </form>
-
+<script>
+  function validateForm() {
+var Time = document.forms["500"]["Time"].value;
+document.getElementById("Result").innerHTML = "Print";
+  }
+  validateForm();
+</script>
   <p id='Result'></p>
 </body>
 </html>
