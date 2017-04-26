@@ -1,14 +1,6 @@
 <DOCTYPE html>
 <html>
 <head>
-
-</head>
-<body>
-<p id="demo"></p>
-<form name="500" onsubmit="return validateForm()">
-Name: <input type="number" name="Time">
-
-</form>
 <script>
   function validateForm() {
 var Time = document.forms["500"]["Time"].value;
@@ -16,6 +8,14 @@ document.getElementById("Result").innerHTML = "Print";
   }
   validateForm();
 </script>
+</head>
+<body>
+<p id="demo"></p>
+<form name="500" onsubmit="return validateForm()">
+Name: <input type="number" name="Time">
+
+</form>
+
   <p id='Result'></p>
 </body>
 </html>
