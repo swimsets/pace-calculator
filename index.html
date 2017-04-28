@@ -1,20 +1,19 @@
 <DOCTYPE html>
 <html>
 <head>
-
+<script>
+ calculateBtn.addEventListener("click", function() {
+  alert('hello');
+ }
+ </script>
 </head>
 <body>
 <p id="demo"></p>
 <form name="500" id='input'>
 Name: <input type="number" name="Time">
- <button value="Submit" onsubmit="return validateForm()">Submit</button>
+ <button value="Submit" id="calculateBtn">Submit</button>
 </form>
-<script>
- function validateFrom() {
-        var username = document.forms.Time.value;
-        alert(username);
-    }
-</script>
+
   <p id='Result'></p>
 </body>
 </html>
