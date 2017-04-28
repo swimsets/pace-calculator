@@ -2,11 +2,9 @@
 <html>
 <head>
 <script type="javascript">
- 	calculateBtn = document.getElementById("calculate_btn"),
-   
- calculateBtn.addEventListener("click", function() {
-  alert('hello');
- });
+ function pressButton() {
+ alert("Hi");
+ }
  </script>
 </head>
 <body>
@@ -15,7 +13,7 @@
 Name: <input type="number" name="Time">
  <button value="Submit" id="calculate_btn">Submit</button>
 </form>
-
+ <button onclick="pressButton">ALERT</button>
   <p id='Result'></p>
 </body>
 </html>
