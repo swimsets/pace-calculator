@@ -18,7 +18,11 @@
  }
   function calcSec() {
     var Time = document.getElementById("inputFour");
- alert(("Here is your time in minutes: ") + Time.value * 60 + (".  Now go to a pace calculator and enter your time in seconds!"));
+ alert(("Here is your time in seconds: ") + Time.value * 60 + (".  Now go to a pace calculator and enter your time!"));
+ }
+  function calcMin() {
+    var Time = document.getElementById("inputFive");
+ alert(("Here is your time in minutes : ") + Time.value / 60 + (". Now go out and swim at that time!"));
  }
  </script>
 
@@ -48,6 +52,11 @@ Enter 500 time in seconds: <input type="number" id="inputThree" value="">
  <h3>Convert minutes to seconds</h3>
 Enter time in this format: 0.00 : <input type="number" id="inputFour" value="">
  <button onclick="calcSec()">CALCULATE</button>
+</form>
+  <form>
+ <h3>Convert seconds to minute</h3>
+Enter time in seconds (get time from one of the calculators above!) : <input type="number" id="inputFive" value="">
+ <button onclick="calcMin()">CALCULATE</button>
 </form>
 </body>
 </html>
