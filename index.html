@@ -4,9 +4,13 @@
 
  <script>
 
- function pressButton() {
+ function calc500() {
     var Time = document.getElementById("time");
  alert(("Here is your 100 time at a 500 pace: ") + Time.value / 5 + (".  Remember to divide by 60 to get minutes!"));
+ }
+   function calc50() {
+    var Time = document.getElementById("time");
+ alert(("Here is your 50 time at a 500 pace: ") + Time.value / 10 + (".  Remember to divide by 60 to get minutes!"));
  }
  </script>
 
@@ -19,9 +23,13 @@
 <form>
  <h3>100 at a 500 pace calculator</h3>
 Enter 500 time in seconds: <input type="number" id="time" value="">
- <button onclick="pressButton()">CALCULATE</button>
+ <button onclick="calc500()">CALCULATE</button>
 </form>
 
- 
+ <form>
+ <h3>50 at a 500 pace calculator</h3>
+Enter 500 time in seconds: <input type="number" id="time" value="">
+ <button onclick="calc50()">CALCULATE</button>
+</form>
 </body>
 </html>
