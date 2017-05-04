@@ -1,12 +1,14 @@
 <DOCTYPE html>
 <html manifest="pace.appcache">
 <head>
-<meta name="apple-mobile-web-app-capable"
-      content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style"
-      content="default" />
-      <meta name="viewport"
-    content="user-scalable=no, width=device-width" />
+ <!-- Prevent scaling -->
+ <meta name="viewport" content="user-scalable=no, width=device-width" />
+
+ <!-- Eliminate url and button bars if added to home screen -->
+ <meta name="apple-mobile-web-app-capable" content="yes" />
+
+ <!-- Choose how to handle the phone status bar -->
+ <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
  <title>Pace Calculator</title>
  <script>
  function calc500() {
