@@ -1,0 +1,12 @@
+body {
+background: src="water.jpg";
+}
+input {
+  border: 0;
+  padding: 15px;
+  font-size: 18px;
+}
+button {
+background: red;
+text-color: white;
+}
