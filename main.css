@@ -2,9 +2,9 @@ body {
 background: url("https://phenomenex.files.wordpress.com/2016/01/water.jpg");
 }
 input {
-  border: 0;
-  padding: 15px;
-  font-size: 18px;
+  border: 2;
+  padding: 3px;
+  font-size: 15px;
 }
 button {
 background: red;
